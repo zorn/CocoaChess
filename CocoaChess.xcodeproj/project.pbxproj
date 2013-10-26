@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0F8D84181C1436000E1976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0F8D83181C1436000E1976 /* Foundation.framework */; };
+		1A0F8D86181C1436000E1976 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0F8D85181C1436000E1976 /* CoreGraphics.framework */; };
+		1A0F8D88181C1436000E1976 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0F8D87181C1436000E1976 /* UIKit.framework */; };
+		1A0F8D8E181C1436000E1976 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A0F8D8C181C1436000E1976 /* InfoPlist.strings */; };
+		1A0F8D90181C1436000E1976 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F8D8F181C1436000E1976 /* main.m */; };
+		1A0F8D94181C1436000E1976 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F8D93181C1436000E1976 /* AppDelegate.m */; };
+		1A0F8D96181C1436000E1976 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0F8D95181C1436000E1976 /* Images.xcassets */; };
+		1A0F8D9D181C1436000E1976 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0F8D9C181C1436000E1976 /* XCTest.framework */; };
+		1A0F8D9E181C1436000E1976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0F8D83181C1436000E1976 /* Foundation.framework */; };
+		1A0F8D9F181C1436000E1976 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0F8D87181C1436000E1976 /* UIKit.framework */; };
+		1A0F8DA7181C1436000E1976 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A0F8DA5181C1436000E1976 /* InfoPlist.strings */; };
+		1A0F8DA9181C1436000E1976 /* CocoaChessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F8DA8181C1436000E1976 /* CocoaChessTests.m */; };
+		1A0F8DB3181C16CB000E1976 /* PlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F8DB2181C16CB000E1976 /* PlayerTests.m */; };
+		1A0F8DB7181C17D7000E1976 /* PCPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F8DB6181C17D7000E1976 /* PCPlayer.m */; };
+		1A0F8DBA181C1BE8000E1976 /* PCGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F8DB9181C1BE8000E1976 /* PCGame.m */; };
+		1A0F8DBC181C1CD5000E1976 /* GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F8DBB181C1CD5000E1976 /* GameTests.m */; };
+		1A0F8DBF181C1E79000E1976 /* PCBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F8DBE181C1E79000E1976 /* PCBoard.m */; };
+		1A0F8DC2181C21E0000E1976 /* PCPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F8DC1181C21E0000E1976 /* PCPiece.m */; };
+		1A0F8DC6181C3765000E1976 /* clean_board.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A0F8DC5181C3765000E1976 /* clean_board.json */; };
+		1A0F8DC8181C3908000E1976 /* BoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F8DC7181C3908000E1976 /* BoardTests.m */; };
+		D860750F181C43F400614A36 /* PCBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D860750E181C43F400614A36 /* PCBoardViewController.m */; };
+		D8607513181C47BE00614A36 /* PCBoardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8607512181C47BE00614A36 /* PCBoardCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A0F8DA0181C1436000E1976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A0F8D78181C1436000E1976 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A0F8D7F181C1436000E1976;
+			remoteInfo = CocoaChess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A0F8D80181C1436000E1976 /* CocoaChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0F8D83181C1436000E1976 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A0F8D85181C1436000E1976 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A0F8D87181C1436000E1976 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A0F8D8B181C1436000E1976 /* CocoaChess-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaChess-Info.plist"; sourceTree = "<group>"; };
+		1A0F8D8D181C1436000E1976 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A0F8D8F181C1436000E1976 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A0F8D91181C1436000E1976 /* CocoaChess-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaChess-Prefix.pch"; sourceTree = "<group>"; };
+		1A0F8D92181C1436000E1976 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A0F8D93181C1436000E1976 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A0F8D95181C1436000E1976 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1A0F8D9B181C1436000E1976 /* CocoaChessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaChessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0F8D9C181C1436000E1976 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1A0F8DA4181C1436000E1976 /* CocoaChessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaChessTests-Info.plist"; sourceTree = "<group>"; };
+		1A0F8DA6181C1436000E1976 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A0F8DA8181C1436000E1976 /* CocoaChessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaChessTests.m; sourceTree = "<group>"; };
+		1A0F8DB2181C16CB000E1976 /* PlayerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerTests.m; sourceTree = "<group>"; };
+		1A0F8DB5181C17D7000E1976 /* PCPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCPlayer.h; sourceTree = "<group>"; };
+		1A0F8DB6181C17D7000E1976 /* PCPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCPlayer.m; sourceTree = "<group>"; };
+		1A0F8DB8181C1BE8000E1976 /* PCGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCGame.h; sourceTree = "<group>"; };
+		1A0F8DB9181C1BE8000E1976 /* PCGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCGame.m; sourceTree = "<group>"; };
+		1A0F8DBB181C1CD5000E1976 /* GameTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTests.m; sourceTree = "<group>"; };
+		1A0F8DBD181C1E79000E1976 /* PCBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCBoard.h; sourceTree = "<group>"; };
+		1A0F8DBE181C1E79000E1976 /* PCBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCBoard.m; sourceTree = "<group>"; };
+		1A0F8DC0181C21E0000E1976 /* PCPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCPiece.h; sourceTree = "<group>"; };
+		1A0F8DC1181C21E0000E1976 /* PCPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCPiece.m; sourceTree = "<group>"; };
+		1A0F8DC5181C3765000E1976 /* clean_board.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = clean_board.json; sourceTree = "<group>"; };
+		1A0F8DC7181C3908000E1976 /* BoardTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardTests.m; sourceTree = "<group>"; };
+		D860750D181C43F400614A36 /* PCBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCBoardViewController.h; sourceTree = "<group>"; };
+		D860750E181C43F400614A36 /* PCBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCBoardViewController.m; sourceTree = "<group>"; };
+		D8607511181C47BE00614A36 /* PCBoardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCBoardCell.h; sourceTree = "<group>"; };
+		D8607512181C47BE00614A36 /* PCBoardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCBoardCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A0F8D7D181C1436000E1976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0F8D86181C1436000E1976 /* CoreGraphics.framework in Frameworks */,
+				1A0F8D88181C1436000E1976 /* UIKit.framework in Frameworks */,
+				1A0F8D84181C1436000E1976 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0F8D98181C1436000E1976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0F8D9D181C1436000E1976 /* XCTest.framework in Frameworks */,
+				1A0F8D9F181C1436000E1976 /* UIKit.framework in Frameworks */,
+				1A0F8D9E181C1436000E1976 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0F8D77181C1436000E1976 = {
+			isa = PBXGroup;
+			children = (
+				1A0F8DC4181C3765000E1976 /* resources */,
+				1A0F8D89181C1436000E1976 /* CocoaChess */,
+				1A0F8DA2181C1436000E1976 /* CocoaChessTests */,
+				1A0F8D82181C1436000E1976 /* Frameworks */,
+				1A0F8D81181C1436000E1976 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A0F8D81181C1436000E1976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A0F8D80181C1436000E1976 /* CocoaChess.app */,
+				1A0F8D9B181C1436000E1976 /* CocoaChessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A0F8D82181C1436000E1976 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A0F8D83181C1436000E1976 /* Foundation.framework */,
+				1A0F8D85181C1436000E1976 /* CoreGraphics.framework */,
+				1A0F8D87181C1436000E1976 /* UIKit.framework */,
+				1A0F8D9C181C1436000E1976 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A0F8D89181C1436000E1976 /* CocoaChess */ = {
+			isa = PBXGroup;
+			children = (
+				D8607510181C47A900614A36 /* View */,
+				D860750C181C43B500614A36 /* View Controllers */,
+				1A0F8DB4181C17BB000E1976 /* Models */,
+				1A0F8D92181C1436000E1976 /* AppDelegate.h */,
+				1A0F8D93181C1436000E1976 /* AppDelegate.m */,
+				1A0F8D95181C1436000E1976 /* Images.xcassets */,
+				1A0F8D8A181C1436000E1976 /* Supporting Files */,
+			);
+			path = CocoaChess;
+			sourceTree = "<group>";
+		};
+		1A0F8D8A181C1436000E1976 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A0F8D8B181C1436000E1976 /* CocoaChess-Info.plist */,
+				1A0F8D8C181C1436000E1976 /* InfoPlist.strings */,
+				1A0F8D8F181C1436000E1976 /* main.m */,
+				1A0F8D91181C1436000E1976 /* CocoaChess-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A0F8DA2181C1436000E1976 /* CocoaChessTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A0F8DA8181C1436000E1976 /* CocoaChessTests.m */,
+				1A0F8DB2181C16CB000E1976 /* PlayerTests.m */,
+				1A0F8DBB181C1CD5000E1976 /* GameTests.m */,
+				1A0F8DC7181C3908000E1976 /* BoardTests.m */,
+				1A0F8DA3181C1436000E1976 /* Supporting Files */,
+			);
+			path = CocoaChessTests;
+			sourceTree = "<group>";
+		};
+		1A0F8DA3181C1436000E1976 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A0F8DA4181C1436000E1976 /* CocoaChessTests-Info.plist */,
+				1A0F8DA5181C1436000E1976 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A0F8DB4181C17BB000E1976 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A0F8DB5181C17D7000E1976 /* PCPlayer.h */,
+				1A0F8DB6181C17D7000E1976 /* PCPlayer.m */,
+				1A0F8DB8181C1BE8000E1976 /* PCGame.h */,
+				1A0F8DB9181C1BE8000E1976 /* PCGame.m */,
+				1A0F8DBD181C1E79000E1976 /* PCBoard.h */,
+				1A0F8DBE181C1E79000E1976 /* PCBoard.m */,
+				1A0F8DC0181C21E0000E1976 /* PCPiece.h */,
+				1A0F8DC1181C21E0000E1976 /* PCPiece.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1A0F8DC4181C3765000E1976 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A0F8DC5181C3765000E1976 /* clean_board.json */,
+			);
+			name = resources;
+			path = CocoaChess/resources;
+			sourceTree = "<group>";
+		};
+		D860750C181C43B500614A36 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D860750D181C43F400614A36 /* PCBoardViewController.h */,
+				D860750E181C43F400614A36 /* PCBoardViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D8607510181C47A900614A36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D8607511181C47BE00614A36 /* PCBoardCell.h */,
+				D8607512181C47BE00614A36 /* PCBoardCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A0F8D7F181C1436000E1976 /* CocoaChess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0F8DAC181C1436000E1976 /* Build configuration list for PBXNativeTarget "CocoaChess" */;
+			buildPhases = (
+				1A0F8D7C181C1436000E1976 /* Sources */,
+				1A0F8D7D181C1436000E1976 /* Frameworks */,
+				1A0F8D7E181C1436000E1976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaChess;
+			productName = CocoaChess;
+			productReference = 1A0F8D80181C1436000E1976 /* CocoaChess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A0F8D9A181C1436000E1976 /* CocoaChessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0F8DAF181C1436000E1976 /* Build configuration list for PBXNativeTarget "CocoaChessTests" */;
+			buildPhases = (
+				1A0F8DC9181C39F5000E1976 /* ShellScript */,
+				1A0F8D97181C1436000E1976 /* Sources */,
+				1A0F8D98181C1436000E1976 /* Frameworks */,
+				1A0F8D99181C1436000E1976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A0F8DA1181C1436000E1976 /* PBXTargetDependency */,
+			);
+			name = CocoaChessTests;
+			productName = CocoaChessTests;
+			productReference = 1A0F8D9B181C1436000E1976 /* CocoaChessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A0F8D78181C1436000E1976 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Michael Zornek";
+				TargetAttributes = {
+					1A0F8D9A181C1436000E1976 = {
+						TestTargetID = 1A0F8D7F181C1436000E1976;
+					};
+				};
+			};
+			buildConfigurationList = 1A0F8D7B181C1436000E1976 /* Build configuration list for PBXProject "CocoaChess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A0F8D77181C1436000E1976;
+			productRefGroup = 1A0F8D81181C1436000E1976 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A0F8D7F181C1436000E1976 /* CocoaChess */,
+				1A0F8D9A181C1436000E1976 /* CocoaChessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A0F8D7E181C1436000E1976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0F8D8E181C1436000E1976 /* InfoPlist.strings in Resources */,
+				1A0F8D96181C1436000E1976 /* Images.xcassets in Resources */,
+				1A0F8DC6181C3765000E1976 /* clean_board.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0F8D99181C1436000E1976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0F8DA7181C1436000E1976 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A0F8DC9181C39F5000E1976 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "osascript -e 'tell app \"iPhone Simulator\" to quit'";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A0F8D7C181C1436000E1976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D860750F181C43F400614A36 /* PCBoardViewController.m in Sources */,
+				1A0F8DBF181C1E79000E1976 /* PCBoard.m in Sources */,
+				1A0F8DC2181C21E0000E1976 /* PCPiece.m in Sources */,
+				D8607513181C47BE00614A36 /* PCBoardCell.m in Sources */,
+				1A0F8DBA181C1BE8000E1976 /* PCGame.m in Sources */,
+				1A0F8D94181C1436000E1976 /* AppDelegate.m in Sources */,
+				1A0F8DB7181C17D7000E1976 /* PCPlayer.m in Sources */,
+				1A0F8D90181C1436000E1976 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0F8D97181C1436000E1976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0F8DB3181C16CB000E1976 /* PlayerTests.m in Sources */,
+				1A0F8DBC181C1CD5000E1976 /* GameTests.m in Sources */,
+				1A0F8DC8181C3908000E1976 /* BoardTests.m in Sources */,
+				1A0F8DA9181C1436000E1976 /* CocoaChessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A0F8DA1181C1436000E1976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A0F8D7F181C1436000E1976 /* CocoaChess */;
+			targetProxy = 1A0F8DA0181C1436000E1976 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A0F8D8C181C1436000E1976 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A0F8D8D181C1436000E1976 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A0F8DA5181C1436000E1976 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A0F8DA6181C1436000E1976 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A0F8DAA181C1436000E1976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A0F8DAB181C1436000E1976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A0F8DAD181C1436000E1976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaChess/CocoaChess-Prefix.pch";
+				INFOPLIST_FILE = "CocoaChess/CocoaChess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A0F8DAE181C1436000E1976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaChess/CocoaChess-Prefix.pch";
+				INFOPLIST_FILE = "CocoaChess/CocoaChess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1A0F8DB0181C1436000E1976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CocoaChess.app/CocoaChess";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaChess/CocoaChess-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CocoaChessTests/CocoaChessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1A0F8DB1181C1436000E1976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CocoaChess.app/CocoaChess";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaChess/CocoaChess-Prefix.pch";
+				INFOPLIST_FILE = "CocoaChessTests/CocoaChessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A0F8D7B181C1436000E1976 /* Build configuration list for PBXProject "CocoaChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0F8DAA181C1436000E1976 /* Debug */,
+				1A0F8DAB181C1436000E1976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0F8DAC181C1436000E1976 /* Build configuration list for PBXNativeTarget "CocoaChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0F8DAD181C1436000E1976 /* Debug */,
+				1A0F8DAE181C1436000E1976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0F8DAF181C1436000E1976 /* Build configuration list for PBXNativeTarget "CocoaChessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0F8DB0181C1436000E1976 /* Debug */,
+				1A0F8DB1181C1436000E1976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A0F8D78181C1436000E1976 /* Project object */;
+}
