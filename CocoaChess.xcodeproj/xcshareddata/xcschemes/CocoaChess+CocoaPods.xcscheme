@@ -10,13 +10,14 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
+               scriptText = ""
                shellToInvoke = "/usr/bin/env bash">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "1A0F8D7F181C1436000E1976"
-                     BuildableName = "CocoaChess.app"
-                     BlueprintName = "CocoaChess"
+                     BlueprintIdentifier = "1A0F8D9A181C1436000E1976"
+                     BuildableName = "CocoaChessTests.xctest"
+                     BlueprintName = "CocoaChessTests"
                      ReferencedContainer = "container:CocoaChess.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
