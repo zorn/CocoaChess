@@ -10,7 +10,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "source &quot;$HOME/.rvm/scripts/rvm&quot; rvm use ruby-2.0.0 # whichever version of Ruby you installed the cocoapods gem to&#10;cd ${SRCROOT} pod install"
+               scriptText = "cd ${SRCROOT} pod install"
                shellToInvoke = "/usr/bin/env bash">
                <EnvironmentBuildable>
                   <BuildableReference
