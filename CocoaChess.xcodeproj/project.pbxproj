@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08199C1895C94B72AD3CE7F7 /* libPods-CocoaChessTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7B17A4BBC24313A47F8A34 /* libPods-CocoaChessTests.a */; };
+		1A0E6777182029330030A2F3 /* SampleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E6776182029330030A2F3 /* SampleSpec.m */; };
 		1A0F8D84181C1436000E1976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0F8D83181C1436000E1976 /* Foundation.framework */; };
 		1A0F8D86181C1436000E1976 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0F8D85181C1436000E1976 /* CoreGraphics.framework */; };
 		1A0F8D88181C1436000E1976 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0F8D87181C1436000E1976 /* UIKit.framework */; };
@@ -42,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A0E6776182029330030A2F3 /* SampleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleSpec.m; sourceTree = "<group>"; };
 		1A0F8D80181C1436000E1976 /* CocoaChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0F8D83181C1436000E1976 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1A0F8D85181C1436000E1976 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -70,6 +73,8 @@
 		1A0F8DC1181C21E0000E1976 /* PCPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCPiece.m; sourceTree = "<group>"; };
 		1A0F8DC5181C3765000E1976 /* clean_board.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = clean_board.json; sourceTree = "<group>"; };
 		1A0F8DC7181C3908000E1976 /* BoardTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardTests.m; sourceTree = "<group>"; };
+		51C74CDE742844FE934B608F /* Pods-CocoaChessTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaChessTests.xcconfig"; path = "Pods/Pods-CocoaChessTests.xcconfig"; sourceTree = "<group>"; };
+		6B7B17A4BBC24313A47F8A34 /* libPods-CocoaChessTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoaChessTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D860750D181C43F400614A36 /* PCBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCBoardViewController.h; sourceTree = "<group>"; };
 		D860750E181C43F400614A36 /* PCBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCBoardViewController.m; sourceTree = "<group>"; };
 		D8607511181C47BE00614A36 /* PCBoardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCBoardCell.h; sourceTree = "<group>"; };
@@ -94,6 +99,7 @@
 				1A0F8D9D181C1436000E1976 /* XCTest.framework in Frameworks */,
 				1A0F8D9F181C1436000E1976 /* UIKit.framework in Frameworks */,
 				1A0F8D9E181C1436000E1976 /* Foundation.framework in Frameworks */,
+				08199C1895C94B72AD3CE7F7 /* libPods-CocoaChessTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +114,7 @@
 				1A0F8DA2181C1436000E1976 /* CocoaChessTests */,
 				1A0F8D82181C1436000E1976 /* Frameworks */,
 				1A0F8D81181C1436000E1976 /* Products */,
+				51C74CDE742844FE934B608F /* Pods-CocoaChessTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +134,7 @@
 				1A0F8D85181C1436000E1976 /* CoreGraphics.framework */,
 				1A0F8D87181C1436000E1976 /* UIKit.framework */,
 				1A0F8D9C181C1436000E1976 /* XCTest.framework */,
+				6B7B17A4BBC24313A47F8A34 /* libPods-CocoaChessTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,6 +167,7 @@
 		1A0F8DA2181C1436000E1976 /* CocoaChessTests */ = {
 			isa = PBXGroup;
 			children = (
+				1A0E6776182029330030A2F3 /* SampleSpec.m */,
 				1A0F8DA8181C1436000E1976 /* CocoaChessTests.m */,
 				1A0F8DB2181C16CB000E1976 /* PlayerTests.m */,
 				1A0F8DBB181C1CD5000E1976 /* GameTests.m */,
@@ -243,10 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A0F8DAF181C1436000E1976 /* Build configuration list for PBXNativeTarget "CocoaChessTests" */;
 			buildPhases = (
+				ABF1861B3A634DB39C88CA68 /* Check Pods Manifest.lock */,
 				1A0F8DC9181C39F5000E1976 /* ShellScript */,
 				1A0F8D97181C1436000E1976 /* Sources */,
 				1A0F8D98181C1436000E1976 /* Frameworks */,
 				1A0F8D99181C1436000E1976 /* Resources */,
+				FD0D74817E68405F96C8E2F5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -325,6 +336,36 @@
 			shellPath = /bin/sh;
 			shellScript = "osascript -e 'tell app \"iPhone Simulator\" to quit'";
 		};
+		ABF1861B3A634DB39C88CA68 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD0D74817E68405F96C8E2F5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-CocoaChessTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -348,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A0F8DB3181C16CB000E1976 /* PlayerTests.m in Sources */,
+				1A0E6777182029330030A2F3 /* SampleSpec.m in Sources */,
 				1A0F8DBC181C1CD5000E1976 /* GameTests.m in Sources */,
 				1A0F8DC8181C3908000E1976 /* BoardTests.m in Sources */,
 				1A0F8DA9181C1436000E1976 /* CocoaChessTests.m in Sources */,
@@ -486,6 +528,7 @@
 		};
 		1A0F8DB0181C1436000E1976 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51C74CDE742844FE934B608F /* Pods-CocoaChessTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CocoaChess.app/CocoaChess";
@@ -509,6 +552,7 @@
 		};
 		1A0F8DB1181C1436000E1976 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51C74CDE742844FE934B608F /* Pods-CocoaChessTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CocoaChess.app/CocoaChess";

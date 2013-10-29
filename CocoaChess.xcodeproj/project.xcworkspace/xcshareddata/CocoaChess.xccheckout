@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5CB9D322-4B8E-4C5E-B3B0-6F6C5FF058C0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CocoaChess</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>62135910-CAD2-429D-916F-7B76E9F428D9</key>
+		<string>https://github.com/zorn/CocoaChess.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CocoaChess.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>62135910-CAD2-429D-916F-7B76E9F428D9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zorn/CocoaChess.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>62135910-CAD2-429D-916F-7B76E9F428D9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>62135910-CAD2-429D-916F-7B76E9F428D9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CocoaChess</string>
+		</dict>
+	</array>
+</dict>
+</plist>
